@@ -40,9 +40,9 @@ export const info = {
             sourceLink: "https://github.com/taylornoj/tsreact-quiz",
         },
         {
-            title: "Project 3",
+            title: "Tweeter",
             liveLink: "https://paytonjewell.dev",
-            sourceLink: "https://paytonjewell.dev",
+            sourceLink: "https://github.com/taylornoj/tweeterapp",
         },
         {
             title: "Project 4",

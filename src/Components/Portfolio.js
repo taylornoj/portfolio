@@ -2,7 +2,7 @@ import React from 'react';
 import Style from './Portfolio.module.scss';
 import mock1 from '../img/mock1.gif';
 import mock2 from '../img/mock2.gif';
-import mock3 from '../img/mock3.png';
+import mock3 from '../img/mock3.gif';
 import mock4 from '../img/mock4.png';
 import {info, colors} from '../Info/Info';
 
