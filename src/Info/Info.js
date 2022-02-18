@@ -53,16 +53,6 @@ export const info = {
     ]
 }
 
-// leave these alone unless you know how to work with FontAwesome and want to change to your liking :)
-
-function facebookIcon() {
-    return <i className="fa fa-facebook" aria-hidden="true"/>
-};
-
-function instagramIcon() {
-    return <i className="fa fa-instagram" aria-hidden="true"/>
-};
-
 function linkedInIcon() {
     return <i className="fa fa-linkedin" aria-hidden="true"/>
 };
@@ -71,9 +61,6 @@ function mediumIcon() {
     return <i className="fa fa-medium" aria-hidden="true"/>
 };
 
-function twitterIcon() {
-    return <i className="fa fa-twitter" aria-hidden="true"/>
-};
 
 function githubIcon() {
     return <i className="fa fa-github" aria-hidden="true"/>
