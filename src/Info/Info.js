@@ -11,18 +11,16 @@ export const info = {
     position: "Jr Full Stack Developer",
     selfPortrait: self, 
     gradient: `linear-gradient(135deg, ${colors})`, 
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
-        ["🐾", "Always playing with my dog"], // change the emojis to something related to your list item :)
+    miniBio: [ 
+        ["🐾", "Always playing with my dog"], 
         ["🇨🇦", "Based in Canada"],
         ["💻", "Recent Graduate from Lighthouse Labs"],
-        ["✉️", "taylornoj@gmail.com"],
+        ["📭", "taylornoj@gmail.com"],
     ],
     socials: [
-        ["https://facebook.com/", facebookIcon()], // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-        ["https://instagram.com/", instagramIcon()], // Just change the links so that they lead to your social profiles.
-        ["https://linkedin.com", linkedInIcon()],
-        ["https://medium.com", mediumIcon()],
-        ["https://twitter.com", twitterIcon()]
+        ["https://www.linkedin.com/in/taylor-noj/", linkedInIcon()],
+        ["https://medium.com/@taylornoj", mediumIcon()],
+        ["https://github.com/taylornoj", githubIcon()]
     ],
     bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     hobbies: [
@@ -75,5 +73,9 @@ function mediumIcon() {
 
 function twitterIcon() {
     return <i className="fa fa-twitter" aria-hidden="true"/>
+};
+
+function githubIcon() {
+    return <i className="fa fa-github" aria-hidden="true"/>
 };
 
