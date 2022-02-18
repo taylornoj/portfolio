@@ -82,10 +82,11 @@ main {
 
 .mainImg {
   filter: grayscale(1);
-  border-radius: 50% 160% 160%;
+  border-radius: 50% 80% 90%;
   // width: 100%;
-  margin-top: -1rem;
-  margin-left: -1.2rem;
+  margin-top: -1.1rem;
+  
+  margin-left: -1.1rem;
   height: auto;
   width: auto;
   max-width: 400px; 

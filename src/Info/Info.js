@@ -4,7 +4,7 @@ import self from '../img/self.png';
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(185, 85, 211)", "rgb(247, 10, 7)"];
+export let colors = ["#eb9a19, #ff7a4e, #ff6186, #fa63bf, #be79ed"];
 /*
 I highly recommend using a gradient generator like https://paytonjewell.github.io/gradient-generator/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
