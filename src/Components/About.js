@@ -28,8 +28,10 @@ export default function About() {
                     <i className={classNames(iconClass, Style.green)}/>
                 </div>
                 <div className={Style.window}>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cat about{info.firstName.toLowerCase()} </p>
-                    <p><span style={{color: colors[1]}}>about{info.firstName.toLowerCase()} <span className={Style.green}>(master)</span> $ </span>
+                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd about{info.firstName.toLowerCase()} </p>
+                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} about{info.firstName.toLowerCase()} node details.js $ </span>
+                    <br />
+                    <br />
                         {info.bio}
                     </p>
                 </div>
@@ -42,8 +44,8 @@ export default function About() {
                     <i className={classNames(iconClass, Style.green)}/>
                 </div>
                 <div className={Style.window}>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd hobbies/interests</p>
-                    <p><span style={{color: colors[1]}}>hobbies/interests <span className={Style.green}>(master)</span> $</span> ls</p>
+                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd hobbies</p>
+                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} hobbies  $</span> ls</p>
                     <ul>
                         {createList()}
                     </ul>

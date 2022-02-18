@@ -12,9 +12,9 @@ export const info = {
     selfPortrait: self, 
     gradient: `linear-gradient(135deg, ${colors})`, 
     miniBio: [ 
-        ["🐾", "Always playing with my dog"], 
+        ["💻", "Currently working on the JavaScript 30 Challenge"],
         ["🇨🇦", "Based in Canada"],
-        ["💻", "Recent Graduate from Lighthouse Labs"],
+        ["🎓", "Recent Graduate from Lighthouse Labs"],
         ["📭", "taylornoj@gmail.com"],
     ],
     socials: [
@@ -22,12 +22,12 @@ export const info = {
         ["https://medium.com/@taylornoj", mediumIcon()],
         ["https://github.com/taylornoj", githubIcon()]
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello, I'm Taylor! I'm a recent graduate from the Lighthouse Labs Web Development Bootcamp. My favourite language right now is JavaScript, and I like working with the PERN stack. Ask me about my dog Ellie, she's the best!",
     hobbies: [
-        ["📖", "reading"], // Same as above, change the emojis to match / relate to your hobbies or interests.
-        ["🎭", "theater"], // You can also remove the emojis if you'd like, I just think they look cute :P
-        ["🎥", "movies"],
-        ["🌶", "spicy food"]
+        ["🐾", "walking my dog"], 
+        ["🚴", "cycling"], // You can also remove the emojis if you'd like, I just think they look cute :P
+        ["📚", "reading"],
+        ["🎧", "listening to podcasts"]
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
