@@ -82,8 +82,16 @@ main {
 
 .mainImg {
   filter: grayscale(1);
-  border-radius: 50%;
-  width: 100%;
+  border-radius: 50% 160% 160%;
+  // width: 100%;
+  margin-top: -1rem;
+  margin-left: -1.2rem;
+  height: auto;
+  width: auto;
+  max-width: 400px; 
+  max-height: 400px;
+  overflow: hidden;
+  // width: 400px;
 }
 
 .socials {
