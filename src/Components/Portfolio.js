@@ -1,7 +1,7 @@
 import React from 'react';
 import Style from './Portfolio.module.scss';
-import mock1 from '../img/mock1.png';
-import mock2 from '../img/mock2.png';
+import mock1 from '../img/mock1.gif';
+import mock2 from '../img/mock2.gif';
 import mock3 from '../img/mock3.png';
 import mock4 from '../img/mock4.png';
 import {info, colors} from '../Info/Info';
@@ -20,7 +20,7 @@ export default function Portfolio() {
                     <div className={Style.block}>
                         <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].liveLink}><img className={Style.image} src={mocks[j++]}/></a>
                         <h1>{info.portfolio[i].title}</h1>
-                        <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{backgroundColor: colors[1]}} className={Style.source}>Source Code</a>
+                        <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{backgroundColor: colors[1], color: "#1f1b28"}} className={Style.source}>Source Code</a>
                     </div>
                 )
         }

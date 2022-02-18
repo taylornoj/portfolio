@@ -25,20 +25,19 @@ export const info = {
     bio: "Hello, I'm Taylor! I'm a recent graduate from the Lighthouse Labs Web Development Bootcamp. My favourite language right now is JavaScript, and I like working with the PERN stack. Ask me about my dog Ellie, she's the best!",
     hobbies: [
         ["🐾", "walking my dog"], 
-        ["🚴", "cycling"], // You can also remove the emojis if you'd like, I just think they look cute :P
+        ["🚴", "cycling"], 
         ["📚", "reading"],
         ["🎧", "listening to podcasts"]
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            liveLink: "paytonjewell.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            sourceLink: "paytonjewell.dev", // this should be a link to the **repository** of the project, where the code is hosted. Github, Phabricator, etc.
+            title: "Project Tracker",
+            sourceLink: "https://github.com/taylornoj/Project-Tracker", 
         },
         {
-            title: "Project 2",
-            liveLink: "https://paytonjewell.dev",
-            sourceLink: "https://paytonjewell.dev",
+            title: "Trivia Night",
+            liveLink: "https://taylornoj.github.io/tsreact-quiz/",
+            sourceLink: "https://github.com/taylornoj/tsreact-quiz",
         },
         {
             title: "Project 3",
