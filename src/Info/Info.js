@@ -13,7 +13,7 @@ export const info = {
     gradient: `linear-gradient(135deg, ${colors})`,
     miniBio: [
         ["💻", "Currently working on the JavaScript 30 Challenge"],
-        ["🇨🇦", "Based in Canada"],
+        ["🇨🇦", "Based in Toronto"],
         ["🎓", "Recent Graduate from Lighthouse Labs"],
         ["📭", "taylornoj@gmail.com"],
     ],
