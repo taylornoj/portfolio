@@ -56,6 +56,11 @@ export const info = {
             liveLink: "https://taylornoj.github.io/customVideoPlayer/",
             sourceLink: "https://github.com/taylornoj/customVideoPlayer",
         },
+        {
+            title: "JavaScript Clock",
+            liveLink: "https://taylornoj.github.io/jsClock/",
+            sourceLink: "https://github.com/taylornoj/jsClock",
+        },
     ]
 }
 
