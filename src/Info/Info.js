@@ -50,6 +50,11 @@ export const info = {
             // liveLink: "https://paytonjewell.dev",
             sourceLink: "https://github.com/taylornoj/tinyapp",
         },
+        {
+            title: "Interview Scheduler",
+            // liveLink: "https://paytonjewell.dev",
+            sourceLink: "https://github.com/taylornoj/scheduler",
+        },
     ]
 }
 
