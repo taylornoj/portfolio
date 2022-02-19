@@ -4,7 +4,9 @@
 
 https://taylornoj.github.io/portfolio/
 
-For my first portfolio, I decided to use a template.
+***
+
+For my first portfolio, I decided to use a template from https://paytonjewell.dev / https://github.com/paytonjewell
 
 I have modified a few pieces to suit my particular needs and design preference.
 

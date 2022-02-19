@@ -18,10 +18,6 @@ export default function BaseLayout() {
         <div className={classNames(Style.container, darkMode ? Style.dark : Style.light)}>
             <Navbar darkMode={darkMode} handleClick={handleClick} />
             <Main />
-            <footer>
-                <p> <a target="_blank" rel="noopener noreferrer" href="https://paytonjewell.dev">Template made with &hearts; by Payton Jewell</a></p>
-                <p>&copy; 2020</p>
-            </footer>
         </div>
     )
 }
