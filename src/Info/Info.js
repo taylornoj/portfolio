@@ -61,6 +61,11 @@ export const info = {
             liveLink: "https://taylornoj.github.io/jsClock/",
             sourceLink: "https://github.com/taylornoj/jsClock",
         },
+        {
+            title: "Drumkit",
+            liveLink: "https://taylornoj.github.io/drumKit/",
+            sourceLink: "https://github.com/taylornoj/drumKit",
+        },
     ]
 }
 
