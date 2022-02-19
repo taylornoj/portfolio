@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.53ed100c.chunk.css",
+    "main.js": "/portfolio/static/js/main.301a6c47.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.301a6c47.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.721988ef.chunk.js": "/portfolio/static/js/2.721988ef.chunk.js",
+    "static/js/2.721988ef.chunk.js.map": "/portfolio/static/js/2.721988ef.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.7282f8157945ac7973dbb8fddcd4c4bd.js": "/portfolio/precache-manifest.7282f8157945ac7973dbb8fddcd4c4bd.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.53ed100c.chunk.css.map": "/portfolio/static/css/main.53ed100c.chunk.css.map",
+    "static/js/2.721988ef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.721988ef.chunk.js.LICENSE.txt",
+    "static/media/mock1.gif": "/portfolio/static/media/mock1.6c5efcc6.gif",
+    "static/media/mock2.gif": "/portfolio/static/media/mock2.84eca3b1.gif",
+    "static/media/mock3.gif": "/portfolio/static/media/mock3.00493445.gif",
+    "static/media/mock4.gif": "/portfolio/static/media/mock4.5d600861.gif",
+    "static/media/mock5.gif": "/portfolio/static/media/mock5.5f7192fb.gif",
+    "static/media/mock6.gif": "/portfolio/static/media/mock6.cdca72ae.gif",
+    "static/media/mock7.gif": "/portfolio/static/media/mock7.87d04cbb.gif",
+    "static/media/mock8.jpeg": "/portfolio/static/media/mock8.f715547c.jpeg",
+    "static/media/self.png": "/portfolio/static/media/self.67a56708.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.721988ef.chunk.js",
+    "static/css/main.53ed100c.chunk.css",
+    "static/js/main.301a6c47.chunk.js"
+  ]
+}
