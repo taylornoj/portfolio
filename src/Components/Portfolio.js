@@ -18,9 +18,11 @@ export default function Portfolio() {
         for(let i = 0; i < portfolioInfo.length; i++) {
                 results.push(
                     <div className={Style.block}>
+                        <h1><a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{backgroundColor: colors[1]}} >{githubIcon()} {info.portfolio[i].title}</a></h1>
                         <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].liveLink}><img className={Style.image} src={mocks[j++]}/></a>
-                        <h1>{info.portfolio[i].title}</h1>
-                        <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{backgroundColor: colors[1], color: "#1f1b28"}} className={Style.source}>Source Code</a>
+                        {/* <h6>{info.portfolio[i].description}</h6> */}
+                        {/* <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{backgroundColor: colors[1]}} className={Style.source}>{githubIcon()} Source Code</a> */}
+                        
                     </div>
                 )
         }
@@ -34,4 +36,8 @@ export default function Portfolio() {
            </div>
        </main>
     );
+};
+
+function githubIcon() {
+    return <i className="fa fa-github" aria-hidden="true"/>
 };

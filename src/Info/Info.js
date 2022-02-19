@@ -32,6 +32,7 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project Tracker",
+            description: "A Project Management App designed to help developers stay organized",
             sourceLink: "https://github.com/taylornoj/Project-Tracker", 
         },
         {
