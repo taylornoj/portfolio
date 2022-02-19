@@ -1,7 +1,7 @@
 import React from 'react';
 import Style from './About.module.scss';
 import classNames from 'classnames';
-import {info, colors} from '../Info/Info';
+import { info, colors } from '../Info/Info';
 
 
 export default function About() {
@@ -11,10 +11,13 @@ export default function About() {
 
     function createList() {
         let results = [];
-        for(let i = 0; i < hobbies.length; i ++) {
+        for (let i = 0; i < hobbies.length; i++) {
             let value = hobbies[i];
             results.push(
-                <li><span aria-label="emoji" role="img" className={Style.emoji}>{value[0]}</span> {value[1]}</li>
+                <li><span 
+                aria-label="emoji" 
+                role="img" 
+                className={Style.emoji}>{value[0]}</span> {value[1]}</li>
             )
         }
         return results;
@@ -23,15 +26,15 @@ export default function About() {
         <div className={Style.about}>
             <div className={classNames(Style.terminal, Style.shadowed)}>
                 <div className={Style.topRow}>
-                    <i className={classNames(iconClass, Style.red)}/>
-                    <i className={classNames(iconClass, Style.amber)}/>
-                    <i className={classNames(iconClass, Style.green)}/>
+                    <i className={classNames(iconClass, Style.red)} />
+                    <i className={classNames(iconClass, Style.amber)} />
+                    <i className={classNames(iconClass, Style.green)} />
                 </div>
                 <div className={Style.window}>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd about{info.firstName.toLowerCase()} </p>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} about{info.firstName.toLowerCase()} node details.js $ </span>
-                    <br />
-                    <br />
+                    <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd about{info.firstName.toLowerCase()} </p>
+                    <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} about{info.firstName.toLowerCase()} node details.js $ </span>
+                        <br />
+                        <br />
                         {info.bio}
                     </p>
                 </div>
@@ -39,13 +42,13 @@ export default function About() {
 
             <div id="bot" className={classNames(Style.terminal, Style.shadowed)}>
                 <div className={Style.topRow}>
-                    <i className={classNames(iconClass, Style.red)}/>
-                    <i className={classNames(iconClass, Style.amber)}/>
-                    <i className={classNames(iconClass, Style.green)}/>
+                    <i className={classNames(iconClass, Style.red)} />
+                    <i className={classNames(iconClass, Style.amber)} />
+                    <i className={classNames(iconClass, Style.green)} />
                 </div>
                 <div className={Style.window}>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd hobbies</p>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} hobbies  $</span> ls</p>
+                    <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd hobbies</p>
+                    <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} hobbies  $</span> ls</p>
                     <ul>
                         {createList()}
                     </ul>

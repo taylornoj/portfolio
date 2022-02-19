@@ -1,7 +1,7 @@
 import React from 'react';
 import Style from './Home.module.scss';
 import classNames from 'classnames';
-import  {info} from '../Info/Info';
+import { info } from '../Info/Info';
 
 export default function Home() {
     const firstNameStyle = {
@@ -14,7 +14,7 @@ export default function Home() {
 
     function createList() {
         let results = [];
-        for(let i = 0; i < bio.length; i ++) {
+        for (let i = 0; i < bio.length; i++) {
             let value = bio[i];
             results.push(
                 <li><span aria-label="emoji" role="img" className={Style.emoji}>{value[0]}</span> {value[1]}</li>
@@ -27,7 +27,7 @@ export default function Home() {
 
     function socialList() {
         let results = [];
-        for(let i = 0; i < socials.length; i ++) {
+        for (let i = 0; i < socials.length; i++) {
             let value = socials[i];
             results.push(
                 <a href={value[0]}>{value[1]}</a>
@@ -38,8 +38,8 @@ export default function Home() {
 
     return (
         <main>
-            <div className={classNames(Style.avatar, Style.shadowed)} style={{background:info.gradient}}>
-            <img src={info.selfPortrait} alt="self"  className={Style.mainImg}/>
+            <div className={classNames(Style.avatar, Style.shadowed)} style={{ background: info.gradient }}>
+                <img src={info.selfPortrait} alt="self" className={Style.mainImg} />
             </div>
             <div className={Style.mainText}>
                 <h1>Hi, I'm <span style={firstNameStyle}>{info.firstName}</span> 👋🏻</h1>

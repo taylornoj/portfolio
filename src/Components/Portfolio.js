@@ -8,7 +8,7 @@ import mock5 from '../img/mock5.gif';
 import mock6 from '../img/mock6.gif';
 import mock7 from '../img/mock7.gif';
 import mock8 from '../img/mock8.jpeg';
-import {info, colors} from '../Info/Info';
+import { info, colors } from '../Info/Info';
 
 
 export default function Portfolio() {
@@ -19,26 +19,26 @@ export default function Portfolio() {
     function createGrid() {
         let results = [];
         let j = 0;
-        for(let i = 0; i < portfolioInfo.length; i++) {
-                results.push(
-                    <div className={Style.block}>
-                        <h1><a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{backgroundColor: colors[1]}} >{githubIcon()} {info.portfolio[i].title}</a></h1>
-                        <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].liveLink}><img className={Style.image} src={mocks[j++]}/></a>                        
-                    </div>
-                )
+        for (let i = 0; i < portfolioInfo.length; i++) {
+            results.push(
+                <div className={Style.block}>
+                    <h1><a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{ backgroundColor: colors[1] }} >{githubIcon()} {info.portfolio[i].title}</a></h1>
+                    <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].liveLink}><img className={Style.image} src={mocks[j++]} /></a>
+                </div>
+            )
         }
         return results;
     }
 
     return (
-       <main>
-           <div className={Style.projectsGrid}>
-               {createGrid()}
-           </div>
-       </main>
+        <main>
+            <div className={Style.projectsGrid}>
+                {createGrid()}
+            </div>
+        </main>
     );
 };
 
 function githubIcon() {
-    return <i className="fa fa-github" aria-hidden="true"/>
+    return <i className="fa fa-github" aria-hidden="true" />
 };
