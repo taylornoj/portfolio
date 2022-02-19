@@ -29,10 +29,9 @@ export const info = {
         ["📚", "reading"],
         ["🎧", "listening to podcasts"]
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [ 
         {
             title: "Project Tracker",
-            // description: "A Project Management App designed to help developers stay organized",
             sourceLink: "https://github.com/taylornoj/Project-Tracker", 
         },
         {
@@ -47,12 +46,10 @@ export const info = {
         },
         {
             title: "TinyApp",
-            // liveLink: "https://paytonjewell.dev",
             sourceLink: "https://github.com/taylornoj/tinyapp",
         },
         {
             title: "Interview Scheduler",
-            // liveLink: "https://paytonjewell.dev",
             sourceLink: "https://github.com/taylornoj/scheduler",
         },
     ]
@@ -65,7 +62,6 @@ function linkedInIcon() {
 function mediumIcon() {
     return <i className="fa fa-medium" aria-hidden="true"/>
 };
-
 
 function githubIcon() {
     return <i className="fa fa-github" aria-hidden="true"/>

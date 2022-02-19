@@ -20,10 +20,7 @@ export default function Portfolio() {
                 results.push(
                     <div className={Style.block}>
                         <h1><a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{backgroundColor: colors[1]}} >{githubIcon()} {info.portfolio[i].title}</a></h1>
-                        <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].liveLink}><img className={Style.image} src={mocks[j++]}/></a>
-                        {/* <h6>{info.portfolio[i].description}</h6> */}
-                        {/* <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].sourceLink} style={{backgroundColor: colors[1]}} className={Style.source}>{githubIcon()} Source Code</a> */}
-                        
+                        <a target="_blank" rel="noopener noreferrer" href={info.portfolio[i].liveLink}><img className={Style.image} src={mocks[j++]}/></a>                        
                     </div>
                 )
         }

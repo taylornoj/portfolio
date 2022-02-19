@@ -27,25 +27,16 @@
   align-items: center;
   text-align: center;
   margin: 1rem;
+  
 
   .image {
     width: 500px;
     height: 350px;
     border-radius: 1rem;
     margin-bottom: 2rem;
+    object-fit:inherit;
   }
 }
 
-// .source {
-//   color: $white;
-//   text-decoration: none;
-//   font-size: 1rem;
-//   padding: 1rem;
-//    border-radius: 2px;
-//   box-shadow: .2rem .2rem .5rem rgba(0,0,0,0.4);
-//   margin-top: 1rem;
-  // display: flex;
-  // margin-left: -25rem;
-  // margin-bottom: -1rem;
-// }
+
 
