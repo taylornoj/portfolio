@@ -5,13 +5,14 @@ import mock2 from '../img/mock2.gif';
 import mock3 from '../img/mock3.gif';
 import mock4 from '../img/mock4.gif';
 import mock5 from '../img/mock5.gif';
+import mock6 from '../img/mock6.gif';
 import {info, colors} from '../Info/Info';
 
 
 export default function Portfolio() {
     let portfolioInfo = info.portfolio;
 
-    let mocks = [mock1, mock2, mock3, mock4, mock5];
+    let mocks = [mock1, mock2, mock3, mock4, mock5, mock6];
 
     function createGrid() {
         let results = [];

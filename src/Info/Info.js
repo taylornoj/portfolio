@@ -41,7 +41,6 @@ export const info = {
         },
         {
             title: "Tweeter",
-            liveLink: "https://paytonjewell.dev",
             sourceLink: "https://github.com/taylornoj/tweeterapp",
         },
         {
@@ -51,6 +50,11 @@ export const info = {
         {
             title: "Interview Scheduler",
             sourceLink: "https://github.com/taylornoj/scheduler",
+        },
+        {
+            title: "Custom Video Player",
+            liveLink: "https://taylornoj.github.io/customVideoPlayer/",
+            sourceLink: "https://github.com/taylornoj/customVideoPlayer",
         },
     ]
 }
