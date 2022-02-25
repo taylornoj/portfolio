@@ -3,7 +3,6 @@ import Style from './About.module.scss';
 import classNames from 'classnames';
 import { info, colors } from '../Info/Info';
 
-
 export default function About() {
     const iconClass = "fa fa-circle";
 
@@ -14,10 +13,10 @@ export default function About() {
         for (let i = 0; i < hobbies.length; i++) {
             let value = hobbies[i];
             results.push(
-                <li><span 
-                aria-label="emoji" 
-                role="img" 
-                className={Style.emoji}>{value[0]}</span> {value[1]}</li>
+                <li><span
+                    aria-label="emoji"
+                    role="img"
+                    className={Style.emoji}>{value[0]}</span> {value[1]}</li>
             )
         }
         return results;
@@ -48,8 +47,8 @@ export default function About() {
                 </div>
                 <div className={Style.window}>
                     <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd skills</p>
-                    <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} skills node skillList.js $</span>  
-                    <br />
+                    <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} skills node skillList.js $</span>
+                        <br />
                         <br />
                         <ul>
                             <span>[JavaScript, Bootstrap, Jest]</span>    <br />
@@ -59,7 +58,7 @@ export default function About() {
                             <span>[Git, Storybook, Cypress, Mocha & Chai]</span> <br />
                             <span>[Wireframing, Database Design, ERD Building]</span>
                         </ul>
-                    
+
                     </p>
                 </div>
             </div>
