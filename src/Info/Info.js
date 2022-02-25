@@ -23,6 +23,10 @@ export const info = {
         ["https://github.com/taylornoj", githubIcon()]
     ],
     bio: "Hello, I'm Taylor! I'm a recent graduate from the Lighthouse Labs Web Development Bootcamp. My favourite language right now is JavaScript, and I like working with the PERN stack. Ask me about my dog Ellie, she's the best!",
+    skills: [
+        ["JavaScript, TypeScript, HTML & CSS, Ruby, EJS"],
+        ["React, Node, Express, Ruby on Rails"]
+    ],
     hobbies: [
         ["🐾", "walking my dog"],
         ["🚴", "cycling"],

@@ -47,6 +47,30 @@ export default function About() {
                     <i className={classNames(iconClass, Style.green)} />
                 </div>
                 <div className={Style.window}>
+                    <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd skills</p>
+                    <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} skills node skillList.js $</span>  
+                    <br />
+                        <br />
+                        <ul>
+                            <span>[JavaScript, Bootstrap, Jest]</span>    <br />
+                            <span>[PostgreSQL, Express, React, Node]</span> <br />
+                            <span>[Ruby, Ruby on Rails, Rspec]</span> <br />
+                            <span>[TypeScript, Material UI, jQuery, AJAX, EJS]</span> <br />
+                            <span>[Git, Storybook, Cypress, Mocha & Chai]</span> <br />
+                            <span>[Wireframing, Database Design, ERD Building]</span>
+                        </ul>
+                    
+                    </p>
+                </div>
+            </div>
+
+            <div id="bot" className={classNames(Style.terminal, Style.shadowed)}>
+                <div className={Style.topRow}>
+                    <i className={classNames(iconClass, Style.red)} />
+                    <i className={classNames(iconClass, Style.amber)} />
+                    <i className={classNames(iconClass, Style.green)} />
+                </div>
+                <div className={Style.window}>
                     <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd hobbies</p>
                     <p><span style={{ color: colors[1] }}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} hobbies  $</span> ls</p>
                     <ul>
@@ -54,6 +78,8 @@ export default function About() {
                     </ul>
                 </div>
             </div>
+
+
         </div>
     )
 }
