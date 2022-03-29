@@ -57,6 +57,11 @@ export const info = {
             sourceLink: "https://github.com/taylornoj/nextjs-blog",
         },
         {
+            title: "Star Wars Whack-A-Mole",
+            liveLink: "https://taylornoj.github.io/starWarsGame/",
+            sourceLink: "https://github.com/taylornoj/starWarsGame",
+        },
+        {
             title: "Custom Video Player",
             liveLink: "https://taylornoj.github.io/customVideoPlayer/",
             sourceLink: "https://github.com/taylornoj/customVideoPlayer",
