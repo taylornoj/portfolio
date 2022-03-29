@@ -52,6 +52,11 @@ export const info = {
             sourceLink: "https://github.com/taylornoj/scheduler",
         },
         {
+            title: "Personal Blog",
+            liveLink: "https://taylorsblog.vercel.app/",
+            sourceLink: "https://github.com/taylornoj/nextjs-blog",
+        },
+        {
             title: "Custom Video Player",
             liveLink: "https://taylornoj.github.io/customVideoPlayer/",
             sourceLink: "https://github.com/taylornoj/customVideoPlayer",
