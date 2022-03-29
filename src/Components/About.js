@@ -51,7 +51,7 @@ export default function About() {
                         <br />
                         <br />
                         <ul>
-                            <span>[JavaScript, Bootstrap, Jest]</span>    <br />
+                            <span>[JavaScript, Bootstrap, Jest, Next.js]</span>    <br />
                             <span>[PostgreSQL, Express, React, Node]</span> <br />
                             <span>[Ruby, Ruby on Rails, Rspec]</span> <br />
                             <span>[TypeScript, Material UI, jQuery, AJAX, EJS]</span> <br />

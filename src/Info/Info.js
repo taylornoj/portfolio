@@ -12,14 +12,14 @@ export const info = {
     selfPortrait: self,
     gradient: `linear-gradient(135deg, ${colors})`,
     miniBio: [
-        ["💻", "Currently working on the JavaScript 30 Challenge"],
+        ["💻", "Currently learning Python"],
         ["🇨🇦", "Based in Toronto"],
         ["🎓", "Recent Graduate from Lighthouse Labs"],
-        ["📭", "taylornoj@gmail.com"],
+        ["📭", <a href="mailto:taylornoj@gmail.com">taylornoj@gmail.com</a>],
     ],
     socials: [
         ["https://www.linkedin.com/in/taylor-noj/", linkedInIcon()],
-        ["https://medium.com/@taylornoj", mediumIcon()],
+        // ["https://medium.com/@taylornoj", mediumIcon()],
         ["https://github.com/taylornoj", githubIcon()]
     ],
     bio: "Hello, I'm Taylor! I'm a recent graduate from the Lighthouse Labs Web Development Bootcamp. My favourite language right now is JavaScript, and I like working with the PERN stack. Ask me about my dog Ellie, she's the best!",
@@ -73,9 +73,9 @@ function linkedInIcon() {
     return <i className="fa fa-linkedin" aria-hidden="true" />
 };
 
-function mediumIcon() {
-    return <i className="fa fa-medium" aria-hidden="true" />
-};
+// function mediumIcon() {
+//     return <i className="fa fa-medium" aria-hidden="true" />
+// };
 
 function githubIcon() {
     return <i className="fa fa-github" aria-hidden="true" />
