@@ -12,6 +12,7 @@ export default function Navbar({ darkMode, handleClick }) {
                 <li><NavLink exact activeClassName="current" to='/'>Home</NavLink></li>
                 <li><NavLink exact activeClassName="current" to='/about'>About Me</NavLink></li>
                 <li><NavLink exact activeClassName="current" to='/portfolio'>Portfolio</NavLink></li>
+                <li><a href="https://taylorsblog.vercel.app/" exact activeClassName="current" >Blog</a></li>
                 <li><a href="https://resume.io/r/mMPy9dwPY" exact activeClassName="current" >Resume</a></li>
                 <Toggler darkMode={darkMode} handleClick={handleClick} />
             </ul>
