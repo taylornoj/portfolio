@@ -2,7 +2,7 @@
 
 .navList {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   max-width: 90%;
   justify-items: center;
   align-items: center;
@@ -12,7 +12,7 @@
   font-size: 1rem;
 
   @media only screen and (min-width: 940px) {
-    max-width: 60%;
+    max-width: 80%;
   }
 
   img {
@@ -21,11 +21,11 @@
 
   a {
     color: $dark;
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
   }
 
   li {
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
 
   }
 }
